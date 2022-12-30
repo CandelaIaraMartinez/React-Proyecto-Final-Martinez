@@ -1,0 +1,10 @@
+.product_compra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product_buyer{
+    display: flex;
+    margin-bottom: 24px;
+}

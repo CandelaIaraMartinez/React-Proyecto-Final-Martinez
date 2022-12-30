@@ -1,0 +1,11 @@
+.itemlistcontainer{
+    display: flex;
+    margin-top: 16px;
+
+}
+
+.itemlistcontainer_producto{
+    margin-left: 16px;
+    margin-right: 16px; 
+    margin-top: 40px;
+}
