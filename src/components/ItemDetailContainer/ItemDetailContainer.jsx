@@ -18,8 +18,8 @@ const ItemDetailContainer = () => {
     });
   }, []);
 
-  console.log(producto);
-  return producto ? <ItemDetail producto={producto} /> : <h1>Cargando</h1>;
+  console.log(producto)
+  return producto ? <ItemDetail producto={producto} /> : <h1>cargando</h1>;
 };
 
 export default ItemDetailContainer;

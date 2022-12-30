@@ -6,12 +6,14 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
+import './Item.css';
 
 export default function Item({producto}) {
   return (
-    <Card sx={{ maxWidth: 345 }}>
+      <div className="item_margin">
+    <Card sx={{ maxWidth: 305 }}>
       <CardMedia
-        sx={{ height: 140 }}
+        sx={{ height: 100 }}
         image={producto.img}
       />
       <CardContent>
@@ -25,6 +27,7 @@ export default function Item({producto}) {
         </Typography>
       </CardContent>
     </Card>
+    </div>
   );
 }
 
