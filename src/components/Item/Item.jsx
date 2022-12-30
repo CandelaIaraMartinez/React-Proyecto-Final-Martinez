@@ -13,7 +13,7 @@ export default function Item({producto}) {
       <div className="item_margin">
     <Card sx={{ maxWidth: 305 }}>
       <CardMedia
-        sx={{ height: 100 }}
+        sx={{ height: 200 }}
         image={producto.img}
       />
       <CardContent>
